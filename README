@@ -1,1 +1,35 @@
+Sprite Creator Software(QT/C++)
+• A tool for creating and animating sprites with various customization options, designed to support game development and artistic projects.
+• Utilized QT widgets for creating an interactive UI. C++ was the backend language to implement how the tools interacted with each other in the UI, and I/O for file saving and
+loading. Gained knowledge to implement logic for saving and loading files into an application.
+
+Auto Maintenance Educational Application(QT/C++)
+• An educational application that was catered to individuals that are not very mechanically inclined. It guided users through the basics of how to take care of one's car.
+• Utilized QT widgets in creating the UI. Heavy use of signals and slots to communicate between the model and the UI. C++ was used in the backend for the general logic.
+Learned that separating the model and the UI's functionality allows for maintainability, and how to import and use external resources for cross-platform use.
+
+Math Application(WPF/C#)
+• An educational program that allows users to practice and improve basic arithmetic skills, including addition, subtraction, multiplication, and division, through an interactive
+theme-based interface.
+• Designed a modular interface using XAML in WPF to create the themed environments. C# was used in the game-like functionality. Gained competence in developing a multipage
+application capable of maintaining information flow and state management across the entire app.
+
+Spreadsheet Software(MAUI/C#)
+• A versatile spreadsheet application resembling Excel, enabling users to manage, organize, and process data effectively.
+• Implemented cell formatting and basic formulas using C# algorithms. Gained proficiency in optimizing and implementing complex algorithms into an application.
+Web-based learning management system(JavaScript, HTML, CSS, Python, Django)
+• A modern LMS for tracking student progress, managing assignments, and facilitating grading. It supports assigning submissions to teaching assistants for evaluation, providing
+functionality similar to platforms like Canvas.
+• Built the back-end with Django for managing user accounts, assignments, submissions, and grading data. Improved understanding of front-end/back-end integration, focusing
+on seamless user experiences.
+
+Agario game(C#)
+• A multiplayer game where players control a circle, consuming smaller circles and other players to grow larger. Inspired by the popular web-based game Agar.io, it emphasizes
+competitive gameplay and strategic growth.
+• Overcame many challenges in synchronizing player movements and collisions in a multiplayer environment by leveraging server-client architecture. Acquired knowledge in
+developing a server-based game, including the integration of a database for efficient data management and storage.
+History Application(Antiquity Atlas) (Flutter, Dart)
+• Developed a cross-platform mobile app (iOS/Android) that provides interactive, map-based historical exploration. Features include user-submitted site data, customizable
+historical tours, and social engagement (likes, reviews,
+
 
