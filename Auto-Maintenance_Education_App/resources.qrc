@@ -1,0 +1,57 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>car-svg.svg</file>
+        <file>alien1.png</file>
+        <file>tire-svg.svg</file>
+        <file>oilcap.jpg</file>
+        <file>pushToStartPic.jpeg</file>
+        <file>GreyCarBackground.png</file>
+        <file>homeScreen.png</file>
+        <file>TrialWelcomeScreen.png</file>
+        <file>warning lights.png</file>
+        <file>WelcomeBackground.png</file>
+        <file>WelcomeScreen2.0.png</file>
+        <file>car_battery_icon.svg</file>
+        <file>windshield_wiper_icon.svg</file>
+        <file>engine_warning_icon.svg</file>
+        <file>map-car-tire-pressure-svgrepo-com.svg</file>
+        <file>oil-can-svgrepo-com.svg</file>
+        <file>tire_icon.svg</file>
+        <file>tire_pressure_icon.svg</file>
+        <file>jump_start_info_1.png</file>
+        <file>jump_start_info_2.png</file>
+        <file>jump_start_info_3.png</file>
+        <file>CheckEngineLight.png</file>
+        <file>ABSWarningLight.png</file>
+        <file>AirbagWarningLight.png</file>
+        <file>BatteryWarningLight.png</file>
+        <file>BrakeWarningLight.png</file>
+        <file>CoolantWarningLight.png</file>
+        <file>LowfuelLight.png</file>
+        <file>MaintenanceLight.png</file>
+        <file>oilPressureLight.png</file>
+        <file>SeatBeltLight.png</file>
+        <file>tirePressureWarning.png</file>
+        <file>TractionWarningLight.png</file>
+        <file>WiperFluidLowLight.png</file>
+        <file>whenToReplaceWipers.jpg</file>
+        <file>wipersOnCar.jpg</file>
+        <file>wiperinstall.jpg</file>
+        <file>tire_replacement_info_1.png</file>
+        <file>tire_replacement_info_2.png</file>
+        <file>car.png</file>
+        <file>coolantCap2.0.jpg</file>
+        <file>BrakeCap.png</file>
+        <file>WindshieldWiper.jpeg</file>
+        <file>PowerSteeringCap.jpeg</file>
+        <file>flat-tire-statistics.jpg</file>
+        <file>tirePin.png</file>
+        <file>pressureGauge.jpg</file>
+        <file>carTirePRessure.jpg</file>
+    </qresource>
+    <qresource prefix="/sound">
+        <file>Kevin James Daytona 2007.-[AudioTrimmer.com]-[AudioTrimmer.com].wav</file>
+        <file>479351__grasopt__car-engine-starting.wav</file>
+    </qresource>
+    <qresource prefix="/"/>
+</RCC>

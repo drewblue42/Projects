@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+    <horstretch>1</horstretch>
+    <verstretch>1</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1920</width>
+    <height>1080</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>1</horstretch>
+     <verstretch>1</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>800</width>
+     <height>600</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>1920</width>
+     <height>1080</height>
+    </size>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout" stretch="0">
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QStackedWidget" name="stackedWidget">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(248, 248, 248);</string>
+      </property>
+      <property name="currentIndex">
+       <number>12</number>
+      </property>
+      <widget class="WelcomeForm" name="welcomePage"/>
+      <widget class="warningLightsInfoForm" name="warningLightsInfoPage"/>
+      <widget class="warningLightsQuizForm" name="warningLightsQuizPage"/>
+      <widget class="spareTireInfoForm" name="spareTireInfoPage"/>
+      <widget class="spareTireQuizForm" name="spareTireQuizPage"/>
+      <widget class="jumpStartInfoForm" name="jumpStartInfoPage">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+      </widget>
+      <widget class="VictoryForm" name="victoryPage"/>
+      <widget class="FluidReplacementInfoForm" name="basicFluidInfoPage"/>
+      <widget class="FluidReplacementQuizForm" name="basicFluidQuizPage"/>
+      <widget class="wiperBladeInfoForm" name="wiperBladeInfoPage"/>
+      <widget class="wiperBladeQuizForm" name="wiperBladeQuizPage"/>
+      <widget class="jumpStartQuizForm" name="jumpStartQuizPage"/>
+      <widget class="TableOfContentsForm" name="tableOfContentsPage"/>
+      <widget class="TirePressureInfoForm" name="tirePressureInfoPage"/>
+      <widget class="TirePressureQuizForm" name="tirePressureQuizPage"/>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>17</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>TableOfContentsForm</class>
+   <extends>QWidget</extends>
+   <header>tableofcontentsform.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>TirePressureInfoForm</class>
+   <extends>QWidget</extends>
+   <header>tirepressureinfoform.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>WelcomeForm</class>
+   <extends>QWidget</extends>
+   <header>welcomeform.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>TirePressureQuizForm</class>
+   <extends>QWidget</extends>
+   <header>tirepressurequizform.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>warningLightsInfoForm</class>
+   <extends>QWidget</extends>
+   <header>warninglightsinfoform.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>warningLightsQuizForm</class>
+   <extends>QWidget</extends>
+   <header>warninglightsquizform.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>spareTireInfoForm</class>
+   <extends>QWidget</extends>
+   <header>sparetireinfoform.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>spareTireQuizForm</class>
+   <extends>QWidget</extends>
+   <header>sparetirequizform.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>jumpStartInfoForm</class>
+   <extends>QWidget</extends>
+   <header>jumpstartinfoform.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>wiperBladeInfoForm</class>
+   <extends>QWidget</extends>
+   <header>wiperbladeinfoform.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>jumpStartQuizForm</class>
+   <extends>QWidget</extends>
+   <header>jumpstartquizform.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>wiperBladeQuizForm</class>
+   <extends>QWidget</extends>
+   <header location="global">wiperbladequizform.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>VictoryForm</class>
+   <extends>QWidget</extends>
+   <header>victoryform.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>FluidReplacementInfoForm</class>
+   <extends>QWidget</extends>
+   <header>fluidreplacementinfoform.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>FluidReplacementQuizForm</class>
+   <extends>QWidget</extends>
+   <header>fluidreplacementquizform.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
