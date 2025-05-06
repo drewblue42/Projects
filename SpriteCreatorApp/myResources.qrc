@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>pencil-svg.svg</file>
+        <file>eraser-svg.svg</file>
+    </qresource>
+    <qresource prefix="/images">
+        <file>black-and-white-square-grid-5d22b8.png</file>
+    </qresource>
+</RCC>
