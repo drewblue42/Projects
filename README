@@ -30,6 +30,20 @@ competitive gameplay and strategic growth.
 developing a server-based game, including the integration of a database for efficient data management and storage.
 History Application(Antiquity Atlas) (Flutter, Dart)
 • Developed a cross-platform mobile app (iOS/Android) that provides interactive, map-based historical exploration. Features include user-submitted site data, customizable
-historical tours, and social engagement (likes, reviews,
+historical tours, and social engagement (likes, reviews)
+
+ChatApp (React/FastAPI)
+- A real-time chat application that allows users to send and receive messages instantly.
+- Utilized React for the frontend interface and FastAPI for the backend messaging logic and user authentication.
+- Implemented WebSocket connections to ensure live communication and integrated a user-friendly UI for message threading and history.
+- Gained experience in full-stack web development, including RESTful APIs, token-based auth, and frontend-backend synchronization.
+
+DiceGame (WPF/C#)
+- A simple yet engaging desktop game that simulates rolling dice.
+- Developed in WPF using C#, with interactive UI elements and visual feedback on dice rolls.
+- Incorporated logic to handle multiple players, scoring, and turn tracking.
+- Strengthened understanding of event-driven programming and UI-state management in desktop applications.
+
+
 
 
