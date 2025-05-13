@@ -8,6 +8,13 @@ Auto Maintenance Educational Application(QT/C++)
 • Utilized QT widgets in creating the UI. Heavy use of signals and slots to communicate between the model and the UI. C++ was used in the backend for the general logic.
 Learned that separating the model and the UI's functionality allows for maintainability, and how to import and use external resources for cross-platform use.
 
+Learning Management System(LMS) (WPF/C#, LINQ)
+- A desktop-based LMS designed to manage assignments, submissions, grading, and student records for educators and students.
+- Developed with WPF and C#, utilizing LINQ to SQL for querying and managing the underlying relational database.
+- Designed and implemented the database schema to support courses, users, assignments, and submissions.
+- Built core logic for data filtering using LINQ, enabling efficient querying and seamless integration with the application’s UI.
+- Gained hands-on experience in data modeling, entity relationships, and state management within a connected client application.
+
 Math Application(WPF/C#)
 • An educational program that allows users to practice and improve basic arithmetic skills, including addition, subtraction, multiplication, and division, through an interactive
 theme-based interface.
