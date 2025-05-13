@@ -44,6 +44,18 @@ DiceGame (WPF/C#)
 - Incorporated logic to handle multiple players, scoring, and turn tracking.
 - Strengthened understanding of event-driven programming and UI-state management in desktop applications.
 
+Student Grading Book (WPF/C#)
+- An application for teachers to record, view, and manage student grades.
+- Built with WPF and C#, featuring multiple views for grade entry, student lookup, and course performance summaries.
+- Implemented local file storage to retain grading data across sessions.
+- Practiced file I/O operations and interface design for data-heavy applications.
+
+Tic Tac Toe (WPF/C#)
+- A digital implementation of the classic Tic Tac Toe game.
+- Created using WPF and C#, featuring a sleek UI and logic to handle game turns, wins, and ties.
+- Implemented game logic with modular functions to ensure scalability for future enhancements (e.g., AI opponent).
+- Explored simple AI principles and turn-based logic design.
+
 
 
 
